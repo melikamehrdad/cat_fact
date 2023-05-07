@@ -1,5 +1,4 @@
 import 'package:cat_trivia/cat/view/cat_page.dart';
-import 'package:cat_trivia/home_page.dart';
 import 'package:cat_trivia/simple_bloc_observer.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -16,7 +15,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Flutter Cat Demo',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
